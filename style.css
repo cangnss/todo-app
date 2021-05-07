@@ -1,0 +1,25 @@
+body{
+    font-family: 'Itim', cursive !important;
+} 
+.add-todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.todo-div{
+    position: relative;
+    border:1px solid white;
+    background-color:white;
+    border-radius: 15px;
+    width: 300px;
+    height: 100px;
+}
+.todo-btn{
+    border: none;
+    outline: none;
+    background-color: transparent !important;
+}
+#todoGroup{
+    list-style-type: none;
+}
